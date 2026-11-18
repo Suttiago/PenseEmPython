@@ -1,5 +1,4 @@
-
-#exercício 1.2
+#Exercício 1.2
 
 '''
 Quantos segundos há em 42 minutos e 42 segundos
@@ -9,7 +8,7 @@ minutos:int = 42
 segundos:int = 42
 
 def calcular_segundos(minutos:int, segundos:int) -> float:
-    minuto_em_segundos = minutos * 60
+    minuto_em_segundos:float = minutos * 60
     
     tempo_convertido:int = minuto_em_segundos + segundos
     
